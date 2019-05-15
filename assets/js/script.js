@@ -1,6 +1,5 @@
 $(function () {
-  console.log ("hola");
-
+  
   $("a").click(function(event){
     if(this.hash !== "") {
       event.preventDefault();
